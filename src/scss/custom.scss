@@ -13,6 +13,7 @@ $custom-colors: (
   "text-light": #ffffff,
   "text-gray": #5c5c5c,
   "bg-dark": #181818,
+  "bg-dark-100": #343434,
   "bg-light": #ffffff,
 );
 
@@ -27,7 +28,31 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 :root {
   --bs-body-font-family: "Rubik", sans-serif;
   --bs-emphasis-color-rgb: $text-light;
-  --bs-navbar-nav-link-padding-x: 2rem;
+}
+
+.btn {
   --bs-btn-font-size: 1.0625rem;
-  --bs-navbar-toggler-icon-bg: url("../../public/assets/images/Vector.png");
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link {
+  --bs-navbar-nav-link-padding-x: 1.25rem;
+}
+// utilities
+h1 {
+  font-size: 80px;
+  line-height: 88px;
+}
+h2 {
+  font-size: 52px;
+  line-height: 62px;
+}
+
+//general
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("/public/assets/images/toggle-menu.png");
+}
+.features {
+  padding-top: 62px;
 }
