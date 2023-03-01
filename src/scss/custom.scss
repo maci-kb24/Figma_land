@@ -53,6 +53,31 @@ h2 {
 .navbar {
   --bs-navbar-toggler-icon-bg: url("/public/assets/images/toggle-menu.png");
 }
+.hero .hero-content {
+  padding: 60px 0px 35px 0px;
+  p {
+    padding-top: 27px;
+  }
+  .hero-buttons {
+    padding-top: 81px;
+  }
+}
+
 .features {
   padding-top: 62px;
+  .row .col p {
+    padding-top: 19px;
+  }
+  .features-columns {
+    padding-top: 64px;
+  }
+}
+.testimonials {
+  padding: 50px 0px;
+}
+.cta {
+  padding: 80px 0px;
+}
+.footer {
+  padding: 107px 0px;
 }
