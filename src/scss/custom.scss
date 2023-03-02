@@ -53,16 +53,21 @@ h2 {
 .navbar {
   --bs-navbar-toggler-icon-bg: url("/public/assets/images/toggle-menu.png");
 }
-.hero .hero-content {
-  padding: 60px 0px 35px 0px;
-  p {
-    padding-top: 27px;
+.hero {
+  .hero-content {
+    padding: 60px 0px 35px 0px;
+    p {
+      padding-top: 27px;
+    }
+    .hero-buttons {
+      padding-top: 81px;
+    }
   }
-  .hero-buttons {
-    padding-top: 81px;
+  .hero-screens {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+    padding-bottom: 152px;
   }
 }
-
 .features {
   padding-top: 62px;
   .row .col p {
@@ -71,6 +76,21 @@ h2 {
   .features-columns {
     padding-top: 64px;
   }
+  .features-column-left {
+    background-image: url("../images/Chat Bot1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .features-column-right {
+    padding-top: 54px;
+  }
+}
+.gallery {
+  padding: 50px 0px;
+}
+.partners {
+  padding: 50px 0px;
 }
 .testimonials {
   padding: 50px 0px;

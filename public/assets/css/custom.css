@@ -12244,6 +12244,10 @@ h2, .h2 {
 .hero .hero-content .hero-buttons {
   padding-top: 81px;
 }
+.hero .hero-screens {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+  padding-bottom: 152px;
+}
 
 .features {
   padding-top: 62px;
@@ -12253,6 +12257,23 @@ h2, .h2 {
 }
 .features .features-columns {
   padding-top: 64px;
+}
+.features .features-column-left {
+  background-image: url("../images/Chat Bot1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.features .features-column-right {
+  padding-top: 54px;
+}
+
+.gallery {
+  padding: 50px 0px;
+}
+
+.partners {
+  padding: 50px 0px;
 }
 
 .testimonials {
