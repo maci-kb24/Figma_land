@@ -5,6 +5,10 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 
+* {
+  outline: 1px solid red !important;
+}
+
 $custom-colors: (
   "primary": #4452fe,
   "secondary": #02e4c0,
@@ -23,7 +27,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // Then add additional custom code here
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 
 :root {
   --bs-body-font-family: "Rubik", sans-serif;
@@ -39,15 +43,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .nav-link {
   --bs-navbar-nav-link-padding-x: 1.25rem;
 }
-// utilities
-h1 {
-  font-size: 80px;
-  line-height: 88px;
-}
-h2 {
-  font-size: 52px;
-  line-height: 62px;
-}
 
 //general
 .navbar {
@@ -56,11 +51,8 @@ h2 {
 .hero {
   .hero-content {
     padding: 60px 0px 35px 0px;
-    p {
-      padding-top: 27px;
-    }
     .hero-buttons {
-      padding-top: 81px;
+      padding-top: 57px;
     }
   }
   .hero-screens {
@@ -77,13 +69,13 @@ h2 {
     padding-top: 64px;
   }
   .features-column-left {
-    background-image: url("../images/Chat Bot1.png");
+    // background-image: url("../images/Chat Bot1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .features-column-right {
-    padding-top: 54px;
+    margin-top: 115px;
   }
 }
 .gallery {
@@ -95,9 +87,48 @@ h2 {
 .testimonials {
   padding: 50px 0px;
 }
-.cta {
-  padding: 80px 0px;
-}
+
 .footer {
   padding: 107px 0px;
+}
+
+.features-column-left .chart-img {
+  position: absolute;
+  left: 15%;
+  bottom: -15%;
+}
+
+@media (min-width: 50em) {
+  h1 {
+    font-size: 80px;
+    line-height: 88px;
+  }
+  h2 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .hero {
+    .hero-content {
+      padding: 60px 0px 35px 0px;
+      .hero-buttons {
+        padding-top: 81px;
+      }
+    }
+  }
+  .features {
+    .features-column-left .chart-img {
+      left: 27%;
+      bottom: -10%;
+    }
+    .features-column-right {
+      margin-top: 54px;
+    }
+  }
+  .cta {
+    .cta-left {
+      background-color: #343434;
+      box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+      border-radius: 33px;
+    }
+  }
 }
