@@ -12230,18 +12230,20 @@ textarea.form-control-lg {
 }
 
 .hero .hero-content {
-  padding: 60px 0px 35px 0px;
+  padding: 57px 0px;
 }
 .hero .hero-content .hero-buttons {
   padding-top: 57px;
 }
 .hero .hero-screens {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
-  padding-bottom: 152px;
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0e0e0e 100%);
+}
+.hero .hero-screens img {
+  z-index: -1;
 }
 
 .features {
-  padding-top: 62px;
+  padding: 62px 0px;
 }
 .features .row .col p {
   padding-top: 19px;
@@ -12294,6 +12296,9 @@ textarea.form-control-lg {
   }
   .hero .hero-content .hero-buttons {
     padding-top: 81px;
+  }
+  .hero .hero-content .hero-screens {
+    padding-bottom: 152px;
   }
   .features .features-column-left .chart-img {
     left: 27%;

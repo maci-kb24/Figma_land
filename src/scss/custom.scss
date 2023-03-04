@@ -50,18 +50,20 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 .hero {
   .hero-content {
-    padding: 60px 0px 35px 0px;
+    padding: 57px 0px;
     .hero-buttons {
       padding-top: 57px;
     }
   }
   .hero-screens {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
-    padding-bottom: 152px;
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0e0e0e 100%);
+    img {
+      z-index: -1;
+    }
   }
 }
 .features {
-  padding-top: 62px;
+  padding: 62px 0px;
   .row .col p {
     padding-top: 19px;
   }
@@ -112,6 +114,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
       padding: 60px 0px 35px 0px;
       .hero-buttons {
         padding-top: 81px;
+      }
+      .hero-screens {
+        padding-bottom: 152px;
       }
     }
   }
