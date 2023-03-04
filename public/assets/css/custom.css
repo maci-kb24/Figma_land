@@ -12228,6 +12228,10 @@ textarea.form-control-lg {
 .hero .hero-content {
   padding: 57px 0px;
 }
+.hero .hero-content .heading {
+  max-width: 8ch;
+  letter-spacing: 2px;
+}
 .hero .hero-content .hero-buttons {
   padding-top: 57px;
 }
@@ -12289,6 +12293,9 @@ textarea.form-control-lg {
   }
   .hero .hero-content {
     padding: 60px 0px 35px 0px;
+  }
+  .hero .hero-content .heading {
+    max-width: 14ch;
   }
   .hero .hero-content .hero-buttons {
     padding-top: 81px;
