@@ -2,6 +2,8 @@
 
 Startup landing page build with Bootstrap 5.
 
+Live site - [https://figma-land-startup.netlify.app/]
+
 # Challenge
 
 The challenge was to customize the site, i can see that Bootstrap is not ideal for custom designed project, it's better siuted for a prototype. It can be customized but it require more work and more css which defeats the purpose of using an framework.
